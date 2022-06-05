@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jupiter Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name="TestCases_Jupiter(failed)">
+    <parameter name="item2" value="Fluffy Bunny"/>
+    <parameter name="item1" value="Funny Cow"/>
+    <parameter name="item4Quantity" value="3"/>
+    <parameter name="item3Quantity" value="2"/>
+    <parameter name="message" value="Jupiter Toys"/>
+    <parameter name="foreName" value="Tom"/>
+    <parameter name="item1Quantity" value="2"/>
+    <parameter name="item2Quantity" value="1"/>
+    <parameter name="item_2" value="Fluffy Bunny"/>
+    <parameter name="item4" value="Valentine Bear"/>
+    <parameter name="item3" value="Stuffed Frog"/>
+    <parameter name="email" value="tom@jupiter.com"/>
+    <parameter name="item_2Quantity" value="5"/>
+    <classes>
+      <class name="com.jupiter.qa.testcases.TestCases_Jupiter">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validate_calculations_of_prices_In_Cart" invocation-numbers="0"/>
+          <include name="add_Items_To_Cart_And_Verify_The_Items_In_Cart" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.jupiter.qa.testcases.TestCases_Jupiter -->
+    </classes>
+  </test> <!-- TestCases_Jupiter(failed) -->
+</suite> <!-- Failed suite [Jupiter Test Automation Test Suite] -->

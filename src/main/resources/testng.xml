@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jupiter Test Automation Test Suite">
+    <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+	<test name="Jupiter Test Cases">
+	<parameter name="foreName" value="Tom" />
+		<parameter name="email" value="tom@jupiter.com" />
+		<parameter name="message" value="Jupiter Toys" />
+		<parameter name="item1" value="Funny Cow" />
+		<parameter name="item2" value="Fluffy Bunny" />
+		<parameter name="item1Quantity" value="2" />
+		<parameter name="item2Quantity" value="1" />
+		<parameter name="item3" value="Stuffed Frog" />
+		<parameter name="item_2" value="Fluffy Bunny" />
+		<parameter name="item4" value="Valentine Bear" />
+		<parameter name="item3Quantity" value="2" />
+		<parameter name="item_2Quantity" value="5" />
+		<parameter name="item4Quantity" value="3" />
+		<classes>
+			<class name="com.jupiter.qa.testcases.TestCases_Jupiter"></class>
+		</classes>
+	</test>
+</suite>
+
